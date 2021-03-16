@@ -15,6 +15,10 @@ Login works as both register and login form together i.e it will login the user 
 - postgres database  has been used , update the .env file with connection details
 - run "npm run migrate" to create the db tables
 
+## TDD
+
+https://docs.google.com/document/d/1CjPlbjJOCuizLRhJYKuKOZECZXz2y8I5nsQVgwJpxjs/edit?usp=sharing
+
 
 This application is generated using [LoopBack 4 CLI](https://loopback.io/
 doc/en/lb4/Command-line-interface.html) with the
