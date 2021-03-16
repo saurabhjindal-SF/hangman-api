@@ -29,7 +29,7 @@ export class GameController {
   ) {}
 
   @authenticate(STRATEGY.BEARER)
-  @get('/new-game', {
+  @post('/game', {
     responses: {
       [StatusCode.OK]: {
         description: 'start new game',
@@ -66,7 +66,7 @@ export class GameController {
   }
 
   @authenticate(STRATEGY.BEARER)
-  @get('/current-game', {
+  @get('/game/last', {
     responses: {
       [StatusCode.OK]: {
         description: 'current game data',

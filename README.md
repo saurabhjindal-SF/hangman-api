@@ -19,6 +19,9 @@ Login works as both register and login form together i.e it will login the user 
 
 https://docs.google.com/document/d/1CjPlbjJOCuizLRhJYKuKOZECZXz2y8I5nsQVgwJpxjs/edit?usp=sharing
 
+## swagger link
+https://sf-hangman-api.herokuapp.com/explorer/
+
 
 This application is generated using [LoopBack 4 CLI](https://loopback.io/
 doc/en/lb4/Command-line-interface.html) with the
