@@ -29,7 +29,7 @@ export class GameController {
   ) {}
 
   @authenticate(STRATEGY.BEARER)
-  @post('/game', {
+  @get('/game', {
     responses: {
       [StatusCode.OK]: {
         description: 'start new game',
